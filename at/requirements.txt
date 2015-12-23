@@ -1,0 +1,2 @@
+# Requirements are listed in setup.py
+-e .
