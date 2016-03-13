@@ -15,8 +15,10 @@ import daemon
 import daemon.pidfile
 import redis
 
+
 def execute_command(command):
     Popen(command, shell=True)
+
 
 def main():
     context = daemon.DaemonContext(
@@ -64,6 +66,7 @@ def main():
                 process(text)
             except:
                 pass
+
 
 if __name__ == '__main__':
     main()
