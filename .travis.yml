@@ -5,3 +5,4 @@ install:
   - python setup.py develop
 script:
   - . tests/run-atd.sh
+sudo: true
