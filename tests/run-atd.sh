@@ -2,7 +2,7 @@
 
 sudo mkdir -p /opt/at-scheduler
 sudo python setup.py install
-sudo redis-server
+sudo redis-server &
 
 # Start the daemon
 sudo python at/atd.py
