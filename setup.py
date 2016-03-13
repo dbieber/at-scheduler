@@ -8,7 +8,7 @@ scripts = [
 dependencies = [
     'APScheduler>=3.0.0',
     'parsedatetime>=1.5',
-    'python-daemon>=2.0.0',
+    'python-daemon>=2.0.4',
     'redis>=2.0.0',
 ]
 
