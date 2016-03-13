@@ -10,7 +10,7 @@ sudo redis-server &
 # Start the daemon
 sudo python at/atd.py
 
-# Test 1: After 1 second, write "test" to test.out
+# Test 1: After 1 second, write "Jelly and bread!" to test.out
 at in 1 second 'echo Jelly and bread! > test.out'
 
 # First, assert the file does not exist.
