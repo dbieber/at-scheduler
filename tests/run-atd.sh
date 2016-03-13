@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo mkdir -p /opt/at-scheduler
 sudo python setup.py install
 sudo redis-server
 
