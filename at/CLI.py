@@ -8,7 +8,7 @@ class CLI(object):
 
     def __init__(self, *args):
         if len(args) == 1:
-            print 'Usage: {command} time command'.format(command='at')
+            print('Usage: {command} time command'.format(command='at'))
             return
 
         text = ' '.join(args)
