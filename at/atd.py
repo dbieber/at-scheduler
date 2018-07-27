@@ -9,7 +9,6 @@ from datetime import timedelta
 import parsedatetime
 
 from subprocess import Popen
-from time import sleep
 
 import daemon
 import daemon.pidfile
