@@ -1,6 +1,5 @@
 from apscheduler.executors.pool import ProcessPoolExecutor
 from apscheduler.executors.pool import ThreadPoolExecutor
-from apscheduler.jobstores.redis import RedisJobStore
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.date import DateTrigger
 
