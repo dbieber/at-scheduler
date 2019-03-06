@@ -9,5 +9,5 @@ install:
   - sudo pip install python-daemon parsedatetime
   - sudo python setup.py install
 script:
-  - . tests/run-atd.sh
+  - tests/run-atd.sh
 sudo: required
